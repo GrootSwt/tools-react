@@ -1,0 +1,18 @@
+.homeContainer {
+  padding: 12px;
+  a {
+    display: block;
+    text-decoration: none;
+    & + a {
+      margin-top: 12px;
+    }
+    &:link,
+    &:visited,
+    &:active {
+      color: inherit;
+    }
+    &:hover {
+      color: var(--active-color);
+    }
+  }
+}
